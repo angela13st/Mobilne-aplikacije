@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "385149037585",
+    "firebase_url": "https://mtvj4-adc41-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "mtvj4-adc41",
+    "storage_bucket": "mtvj4-adc41.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:385149037585:android:713a0c3859ce09096055b0",
+        "android_client_info": {
+          "package_name": "com.example.vjezba4"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBceKZTQKFCNeE4ZhVIiaGMUPMdmPdBeQA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

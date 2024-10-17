@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">VJ1</string>
+    <string-array name="operacije">
+        <item>+</item>
+        <item>-</item>
+        <item>*</item>
+        <item>/</item>
+    </string-array>
+</resources>

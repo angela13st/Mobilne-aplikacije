@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="180px"
+    android:paddingTop="250px"
+    tools:context=".Zadatak_1_4">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:padding="10px"
+        android:id="@+id/l1"
+        android:background="#0000FF"
+        android:layout_width="200px"
+        android:layout_height="140px"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/l2"
+        app:layout_constraintBottom_toTopOf="@+id/l4">
+
+        <ImageView
+            android:id="@+id/z1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_star_silver"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/z2">
+
+        </ImageView>
+        <ImageView
+            android:id="@+id/z2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_star_silver"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@id/z1"
+            app:layout_constraintEnd_toStartOf="@id/z3"
+            >
+        </ImageView>
+        <ImageView
+            android:id="@+id/z3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_star_silver"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/z2"
+            app:layout_constraintEnd_toEndOf="parent"
+            >
+        </ImageView>
+        <ImageView
+            android:id="@+id/z4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_star_silver"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/z5"
+            app:layout_constraintTop_toBottomOf="@id/z1">
+        </ImageView>
+        <ImageView
+            android:id="@+id/z5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_star_silver"
+            app:layout_constraintStart_toEndOf="@id/z4"
+            app:layout_constraintTop_toBottomOf="@id/z2"
+            app:layout_constraintEnd_toStartOf="@id/z6">
+        </ImageView>
+        <ImageView
+            android:id="@+id/z6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_star_silver"
+            app:layout_constraintStart_toEndOf="@id/z5"
+            app:layout_constraintTop_toBottomOf="@id/z3"
+            app:layout_constraintEnd_toEndOf="parent">
+        </ImageView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/l2"
+        android:layout_width="500px"
+        android:layout_height="70px"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/l1"
+        app:layout_constraintBottom_toTopOf="@+id/l3"
+        android:background="#FF0000">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/l3"
+        android:layout_width="500px"
+        android:layout_height="70px"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        app:layout_constraintTop_toBottomOf="@+id/l2"
+        app:layout_constraintStart_toEndOf="@+id/l1"
+        android:background="#FFFFFF"
+        >
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/l4"
+        android:layout_width="700px"
+        android:layout_height="70px"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        android:background="#FF0000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/l5"
+        app:layout_constraintTop_toBottomOf="@id/l3">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/l5"
+        android:layout_width="700px"
+        android:layout_height="70px"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/l4"
+        android:background="#FFFFFF">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/l6"
+        android:layout_width="700px"
+        android:layout_height="70px"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/l5"
+        android:background="#FF0000">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/l7"
+        android:layout_width="700px"
+        android:layout_height="70px"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/l6"
+        android:background="#FFFFFF">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/l8"
+        android:layout_width="700px"
+        android:layout_height="70px"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/l7"
+        android:background="#FF0000">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

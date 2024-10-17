@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity12">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="35dp"
+        android:layout_height="34dp"
+        android:layout_marginLeft="200px"
+        app:srcCompat="@drawable/baseline_star_24"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/imageView7"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="297dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="35dp"
+        android:layout_height="34dp"
+        app:srcCompat="@drawable/baseline_star_24"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/imageView6"
+        app:layout_constraintEnd_toStartOf="@id/imageView8"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="297dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="35dp"
+        android:layout_height="34dp"
+        app:srcCompat="@drawable/baseline_star_24"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/imageView7"
+        app:layout_constraintEnd_toStartOf="@id/imageView9"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="297dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="35dp"
+        android:layout_height="34dp"
+        app:srcCompat="@drawable/baseline_star_24"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginRight="200px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/imageView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="297dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
